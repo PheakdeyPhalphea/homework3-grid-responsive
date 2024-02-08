@@ -75,6 +75,20 @@
         height: 100%;
         object-fit: cover;
         border-radius: 20px;
+        transition: transform 0.3s ease;
+      }
+      .gallary-image:hover {
+        transform: scale(1.04); /* Adjust the scaling factor as needed */
+      }
+  
+      /* Animation effect before hover */
+      .gallary-image {
+        transform: scale(1); /* Initial scale */
+        transition: transform 0.3s ease; /* Smooth transition */
+      }
+  
+      .gallary-image:hover {
+        transform: scale(1.04); /* Adjust the scaling factor as needed */
       }
       & div:nth-child(1) {
         grid-row: span 5;
@@ -137,6 +151,7 @@
         font-size: 35px;
         cursor: pointer;
       }
+      .gallary-full-screen {display: none; }
   }
 }
 @media (min-width: 768px) {
@@ -218,6 +233,20 @@
         height: 100%;
         object-fit: cover;
         border-radius: 20px;
+        transition: transform 0.3s ease;
+      }
+      .gallary-image:hover {
+        transform: scale(1.04); /* Adjust the scaling factor as needed */
+      }
+  
+      /* Animation effect before hover */
+      .gallary-image {
+        transform: scale(1); /* Initial scale */
+        transition: transform 0.3s ease; /* Smooth transition */
+      }
+  
+      .gallary-image:hover {
+        transform: scale(1.04); /* Adjust the scaling factor as needed */
       }
       & div:nth-child(1) {
         grid-row: span 5;
@@ -280,7 +309,9 @@
         font-size: 35px;
         cursor: pointer;
       }
-  }
+      .gallary-full-screen {display: none; }
+
+}
 }
 @media (min-width: 992px) {
   body {
@@ -361,8 +392,22 @@
         height: 100%;
         object-fit: cover;
         border-radius: 20px;
+        transition: transform 0.3s ease;
       }
-      & div:nth-child(1) {
+      .gallary-image:hover {
+        transform: scale(1.04); /* Adjust the scaling factor as needed */
+      }
+  
+      /* Animation effect before hover */
+      .gallary-image {
+        transform: scale(1); /* Initial scale */
+        transition: transform 0.3s ease; /* Smooth transition */
+      }
+  
+      .gallary-image:hover {
+        transform: scale(1.04); /* Adjust the scaling factor as needed */
+      }
+      & div:nth-child(1){
         grid-row: span 5;
       }
       & div:nth-child(2) {
@@ -424,8 +469,6 @@
     font-size: 35px;
     cursor: pointer;
   }
-  .gallary-full-screen {
-    display: none; 
-}
+  .gallary-full-screen {display: none; }
 
 }
