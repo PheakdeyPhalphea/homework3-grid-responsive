@@ -424,4 +424,8 @@
     font-size: 35px;
     cursor: pointer;
   }
+  .gallary-full-screen {
+    display: none; 
+}
+
 }
